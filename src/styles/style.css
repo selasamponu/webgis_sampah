@@ -1,0 +1,159 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#eef8ff;
+}
+
+.container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    width:420px;
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.card h2{
+    text-align:center;
+    color:#0f4c81;
+}
+
+input{
+    width:100%;
+    padding:13px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    margin-top:10px;
+    box-sizing:border-box;
+    font-size:15px;
+}
+
+input:focus{
+    outline:none;
+    border:1px solid #38bdf8;
+}
+
+button{
+    width:100%;
+    padding:13px;
+    border:none;
+    background:#38bdf8;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0284c7;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.dashboard{
+    display:flex;
+    min-height:100vh;
+}
+
+.sidebar{
+    width:250px;
+    background:#0f4c81;
+    color:white;
+    padding:20px;
+}
+
+.sidebar h2{
+    text-align:center;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    margin-top:10px;
+    border-radius:10px;
+}
+
+.sidebar a:hover{
+    background:#38bdf8;
+}
+
+.content{
+    flex:1;
+    padding:30px;
+    background:#eef8ff;
+}
+
+.navbar{
+    background:white;
+    padding:15px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    margin-bottom:25px;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.info-card{
+    flex:1;
+    min-width:220px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.info-card h3{
+    color:#0f4c81;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    margin-top:20px;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+th{
+    background:#38bdf8;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#f7fbff;
+}
+
+.logout{
+    background:#ef4444;
+}
+
+.logout:hover{
+    background:#dc2626;
+}
